@@ -33,6 +33,7 @@ def close_all_orders():
       pair,
       order_id_list
     )
+    order_id_list = [] # 注文IDのリスト
 
 # ラストプライスに近いところで複数に価格をバラけさせて注文いれる関数
 def put_orders():
